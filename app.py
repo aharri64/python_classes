@@ -1,13 +1,9 @@
-
 # 1 Understand difference between objects and classes
 car = {
     "make": "Rolls Royce",
     "model": "Ghost",
     "color": "white"
 }
-
-
-class Car:
 
 
 class CoffeeCup():
@@ -26,10 +22,9 @@ class CoffeeCup():
         if (self.amount == 0):
             self.amount = 0
 
-
-# Understand how classes are defined
-# Understand how objects are initia112liZA zed
-# Understand instance variables and instance methods
+    # Understand how classes are defined
+    # Understand how objects are initia112liZA zed
+    # Understand instance variables and instance methods
 steves_cup = CoffeeCup(12)  # a fancy latte
 seans_cup = CoffeeCup(16)  # gas station drip
 brandis_cup = CoffeeCup(2)  # a quick expresso
@@ -37,6 +32,7 @@ brandis_cup = CoffeeCup(2)  # a quick expresso
 steves_cup.fill()  # ? dot ntation when using methods
 steves_cup.drink(12)  # ? method chaining
 print(steves_cup.amount)
+print(help(steves_cup))
 # Understand class variables and class methods
 # Utilize the self keyword
 # Understand method chaining in a class
